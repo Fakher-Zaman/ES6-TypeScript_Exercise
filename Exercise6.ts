@@ -1,3 +1,5 @@
+// Arrow Function
+
 var normalFunc = function(){
     return 10;
 }

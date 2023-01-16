@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "systemjs": "^6.13.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "babel": "^6.23.0",
+    "es6-module-loader": "^0.17.11",
+    "systemjs": "^6.13.0",
+    "traceur": "^0.0.111",
+    "typescript": "^4.9.4"
+  }
+}

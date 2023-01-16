@@ -1,0 +1,5 @@
+// Module Sytax - ES2015
+// Module Loading - WIP
+
+// npm install es6-module-loader babel traceur typescript
+// npm install es6-module-loader babel traceur systemjs

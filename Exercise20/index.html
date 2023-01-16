@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules/traceur/bin/traceur.js"></script>
+    <script src="node_modules/systemjs/dist/system.min.js"></script>
+    <script src="node_modules/es6-module-loader/dist/es6-module-loader-dev.js"></script>
+    <title>ES6 Modules Learns</title>
+</head>
+
+<body>
+    Welcome to the Modules in JavaScript 2015
+    <!-- <script type="module">
+        // loads the 'q' export from 'mymodule.js' in the same path as the page
+        import { q } from 'mymodule';
+
+        new q(); // -> 'this is an es6 class!'
+    </script> -->
+
+    <script type="module">
+        System.import('default_exports/ModuleA');
+    </script>
+</body>
+
+</html>

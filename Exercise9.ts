@@ -12,5 +12,5 @@ let displayColors = function (message, ...Colors) { // Rest Operator
 
 let msg = "---> List of Colors: ";
 displayColors(msg, 'Red');
-displayColors(msg, 'Red', 'Blue');
-displayColors(msg, 'Red', 'Blue', 'Green');
+displayColors(msg, 'Red', 'Yellow');
+displayColors(msg, 'Red', 'Yellow', 'Green');

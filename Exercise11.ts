@@ -8,8 +8,11 @@ let person = {
     lastName
 };
 
-// console.log(person.firstName);
-// console.log(person.lastName);
+// Concept of Computed Property Names Asynchronous Programming
+setTimeout(() => {
+    console.log(person.firstName);
+    console.log(person.lastName);
+}, 2000);
 
 function createPerson(firstName, lastName, age) {
     let fullName = firstName + " " + lastName;
@@ -23,7 +26,7 @@ function createPerson(firstName, lastName, age) {
     };
 }
 
-let p = createPerson("Fakhar", "Zaman", 22);
+let p = createPerson("Fakher", "Zaman", 22);
 console.log(p.firstName);
 console.log(p.lastName);
 console.log(p.fullName);

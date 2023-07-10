@@ -12,4 +12,4 @@ function greetPerson(name) {
     console.log(greet)
     // var greet;
 }
-greetPerson("Fakhar")
+greetPerson("Greet")

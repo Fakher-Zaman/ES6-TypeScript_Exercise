@@ -10,6 +10,12 @@ const obj = {
 }
 // obj = {}    // Error because const keyword declare at once only
 
-console.log(obj.name)
-obj.name = 'Zaman'
-console.log(obj.name)
+setTimeout(function () {
+    console.log(obj.name);
+}, 4000);
+
+obj.name = 'Zaman';
+
+setTimeout(function () {
+    console.log(obj.class);
+}, 2000);

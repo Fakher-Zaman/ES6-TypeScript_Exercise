@@ -18,7 +18,7 @@ class B extends A {
     }
 
     getID() {
-        return 2;
+        return 5;
     }
 };
 

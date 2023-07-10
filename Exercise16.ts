@@ -1,6 +1,6 @@
 // for of loop
 
-let colors = ['Red', 'Blue', 'Green'];
+let colors = ['Red', 'Yellow', 'Green'];
 
 for (let index in colors) {     // for in loop
     console.log(colors[index]);

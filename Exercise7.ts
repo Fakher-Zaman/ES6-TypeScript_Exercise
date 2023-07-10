@@ -1,10 +1,12 @@
 // lexical this
 
 var employee = {
-    id: 1,
+    id: 578,
+    name: "Fakhar",
+    class: "BSIT",
     greet: function () {
         setTimeout(() => {
-            console.log(this.id);
+            console.log(this.id + " || " + this.name + " || " + this.class);
         }, 2000);
     }
 };

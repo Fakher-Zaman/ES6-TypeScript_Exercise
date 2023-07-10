@@ -7,8 +7,8 @@ let temp = 0;
 temp = num1
 num1 = num2
 num2 = temp
-console.log(num1)
-console.log(num2)
+console.log("Num1: " + num1)
+console.log("Num2: " + num2)
 
 // By assigning a unique value:
 const PI = 3.14;

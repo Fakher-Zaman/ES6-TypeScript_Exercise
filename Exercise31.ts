@@ -19,7 +19,9 @@ personalInfo[Symbol.iterator] = function () {
         if (count >= properties.length) {
             isDone = true;
         }
-        return {done: isDone, value: this[properties[count++]]};
+        return { done: isDone, value: this[properties[count++]] };
     }
-    return {next};
+    return { next };
 };
+
+console.log(personalInfo);

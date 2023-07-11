@@ -16,3 +16,6 @@ class Student1 {
 
     }
 }
+
+const man = new Student("fakher", "zaman");
+console.log(man);

@@ -6,5 +6,7 @@
 })
 
 export class AppComponent {
-    // code here
+    constructor() {
+        console.log("I am a constructor");
+    }
 }

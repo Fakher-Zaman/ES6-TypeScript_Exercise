@@ -11,8 +11,10 @@ let student1: Student = {
     lname: "Zaman",
     age: 22
 };
+console.log(student1);
 
 let student2: Student = {
     fname: "Hammae",
     lname: "Asif",
 };
+console.log(student2);

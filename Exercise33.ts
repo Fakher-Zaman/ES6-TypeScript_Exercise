@@ -10,3 +10,7 @@ var z = true;   // boolean
 var u: number = 10;
 var v: string = "hi"
 var w: boolean = true;
+
+// console.log(x);
+// console.log(y);
+// console.log(z);
